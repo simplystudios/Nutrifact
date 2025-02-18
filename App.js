@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState, useEffect } from "react";
+import { Text, View, StyleSheet, Button } from "react-native";
+import Scanner from "./screens/Scannerpage";
+import Homepage from "./screens/Homepage";
+import { AppRegistry } from 'react-native';
+import { PaperProvider } from 'react-native-paper';
+import RootStack from "./navigators/RootStack";
 
 export default function App() {
+  
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <PaperProvider>
+      <View style={styles.container}>
+      <RootStack/>
     </View>
+    </PaperProvider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: "column",
+    justifyContent: "center",
   },
+  
 });
+AppRegistry.registerComponent(App, () => Main);
