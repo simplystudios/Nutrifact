@@ -1,4 +1,5 @@
 # Nutrifact - Check your food facts
+![GitHub License](https://img.shields.io/github/license/simplystudios/nutrifact)  [![wakatime](https://wakatime.com/badge/user/f983c5d0-c6d8-471e-a499-43763ad1d6b4/project/d2511c1f-5dff-427c-bbd4-7d23533c26d6.svg)](https://wakatime.com/badge/user/f983c5d0-c6d8-471e-a499-43763ad1d6b4/project/d2511c1f-5dff-427c-bbd4-7d23533c26d6)
 
 ## 📝 Description
  Nutrifact is a app to get comprehensive nutritional insights of food products. By leveraging barcode scanning and data integration from reliable sources(openfoodfacts), Nutrifact provides users with detailed nutritional information, health scores, and visual representations of food items. It aims to assist individuals in making informed dietary choices and understanding the nutritional value of what they consume. 
